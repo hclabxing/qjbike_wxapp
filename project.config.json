@@ -12,9 +12,11 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.8",
-	"appid": "wx90c0447311d684c0",
+	"appid": "wx685d1699d4c49200",
 	"projectname": "%E6%94%B9%E8%89%AF%E7%89%88%E9%9D%92%E6%A1%94%E5%8D%95%E8%BD%A6",
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -24,13 +26,24 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "userCenter",
+					"pathName": "pages/userCenter/userCenter",
+					"scene": null
+				}
+			]
 		}
 	}
 }
